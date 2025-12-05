@@ -7,6 +7,8 @@ import useLocalStorage from "./hooks/useLocalStorage";
 import { DEFAULT_CATEGORIES } from "./data";
 import useDarkMode from "./hooks/useDarkMode";
 
+// rebuild test
+
 export default function App() {
   const { theme, toggleTheme } = useDarkMode();   // 🌙 Dark mode hook
   const [tab, setTab] = useState("home");
